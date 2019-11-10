@@ -5,8 +5,300 @@
     <meta name="viewport" content="width=device-width">
     <title>repl.it</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" rel="stylesheet" type="text/css" />
+    
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   <body>
+
+    <section id="tabs" class="project-tab">
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-md-12">
+
+          <h2>Cadastro de Profissionais</h2>
+
+          <nav>
+            <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+            <a class="nav-item nav-link " id="nav-etapa1-tab" data-toggle="tab" href="#nav-etapa1" role="tab" aria-controls="nav-etapa1" aria-selected="true">Etapa 01</a>
+            <a class="nav-item nav-link " id="nav-etapa2-tab" data-toggle="tab" href="#nav-etapa2" role="tab" aria-controls="nav-etapa2" aria-selected="false">Etapa 02</a>
+            <a class="nav-item nav-link" id="nav-etapa3-tab" data-toggle="tab" href="#nav-etapa3" role="tab" aria-controls="nav-etapa3" aria-selected="false">Etapa 03</a>
+            <a class="nav-item nav-link" id="nav-etapa4-tab" data-toggle="tab" href="#nav-etapa4" role="tab" aria-controls="nav-etapa4" aria-selected="false">Etapa 04</a>
+            <a class="nav-item nav-link" id="nav-etapa5-tab" data-toggle="tab" href="#nav-etapa5" role="tab" aria-controls="nav-etapa5" aria-selected="false">Etapa 05</a>
+            <a class="nav-item nav-link active" id="nav-etapa6-tab" data-toggle="tab" href="#nav-etapa6" role="tab" aria-controls="nav-etapa6" aria-selected="false">Etapa 06</a>
+            </div>
+          </nav>
+          
+          <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade" id="nav-etapa1" role="tabpanel" aria-labelledby="nav-etapa1-tab">
+              <div class="row">
+                  <div class="col-8">
+                  </div>
+                  <div class="col-2 text-center">
+                    Profissional
+                  </div>
+                  <div class="col-2 text-center">
+                    Gestor
+                  </div>
+
+                  <div class="col-8">
+                    <ul class="competencia">
+                      <li>Competência 1</li>
+                      <li>Competência 2</li>
+                      <li>Competência 3</li>
+                      <li>Competência 4</li>
+                      <li>Competência 5</li>
+                      <li>Competência 6</li>
+                      <li>Competência 7</li>
+                      <li>Competência 8</li>
+                      <li>Competência 9</li>
+                      <li>Competência 10</li>
+                      <li>Competência 11</li>
+                      <li>Competência 12</li>
+                    </ul>
+                  </div>
+
+                  <div class="col-2">
+                    <form action="">
+                      <input class="formcomp" type="text" name="profissional1">                        
+                      <input class="formcomp" type="text" name="profissional2">                        
+                      <input class="formcomp" type="text" name="profissional3">
+                      <input class="formcomp" type="text" name="profissional4">
+                      <input class="formcomp" type="text" name="profissional5">
+                      <input class="formcomp" type="text" name="profissional6">
+                      <input class="formcomp" type="text" name="profissional7">
+                      <input class="formcomp" type="text" name="profissional8">
+                      <input class="formcomp" type="text" name="profissional9">
+                      <input class="formcomp" type="text" name="profissional10">
+                      <input class="formcomp" type="text" name="profissional11">
+                      <input class="formcomp" type="text" name="profissional12">
+                    </form>
+                  </div>
+                  <div class="col-2">
+                    <form action="">
+                        <input class="formcomp" type="text" name="gestor1">                        
+                        <input class="formcomp" type="text" name="gestor2">
+                        <input class="formcomp" type="text" name="gestor3">
+                        <input class="formcomp" type="text" name="gestor4">
+                        <input class="formcomp" type="text" name="gestor5">
+                        <input class="formcomp" type="text" name="gestor6">
+                        <input class="formcomp" type="text" name="gestor7">
+                        <input class="formcomp" type="text" name="gestor8">
+                        <input class="formcomp" type="text" name="gestor9">
+                        <input class="formcomp" type="text" name="gestor10">
+                        <input class="formcomp" type="text" name="gestor11">
+                        <input class="formcomp" type="text" name="gestor12">
+                      </form>
+                  </div>
+              </div>
+              <div class="row divisor">
+                  <div class="col-8 divisor2">
+                      <ul class="competencia">
+                        <li>Média</li>
+                      </ul>
+                    </div>
+
+                    <div class="col-2 divisor2">
+                      <form action="">
+                        <input class="formcomp" type="text" name="profissional1">                        
+                      </form>
+                    </div>
+
+                    <div class="col-2 divisor2">
+                      <form action="">
+                          <input class="formcomp" type="text" name="gestor1">                        
+                        </form>
+                    </div>
+              </div>
+
+              <div class="row divisor">
+                  <div class="col-8 divisor2">
+                      <ul class="competencia">
+                        <li>Evolução de desempenho</li>
+                      </ul>
+                    </div>
+
+                    <div class="col-2 divisor2">
+                      <form action="">
+                        <input class="formcomp" type="text" name="profissional1">                        
+                      </form>
+                    </div>
+
+                    <div class="col-2 divisor2">
+                      <form action="">
+                          <input class="formcomp" type="text" name="gestor1">                        
+                        </form>
+                    </div>
+              </div>
+
+            </div>
+
+            <div class="tab-pane fade " id="nav-etapa2" role="tabpanel" aria-labelledby="nav-etapa2-tab">
+              <div class="row">
+                <div class="col-12">
+                    <div class="row">
+                      <h5 class="titulo-pro">Observações do Profissional</h5>
+                      <textarea class="tamform" name="" id="" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="row">
+                        <h5 class="titulo-pro">Gestor</h5>
+                        <input class="tamform" type="text">
+                    </div>
+                    <div class="row">
+                        <h5 class="titulo-pro">Observações do Gestor</h5>
+                        <textarea class="tamform" name="" id="" cols="30" rows="10"></textarea>
+                      </div>
+                </div>
+              </div>
+              
+            </div>
+
+            <div class="tab-pane fade" id="nav-etapa3" role="tabpanel" aria-labelledby="nav-etapa3-tab">
+              
+              <div class="row">
+                <div class="col-12">
+                    <div class="row">
+                        <h5 class="titulo-pro">Nome do Profissional</h5>
+                        <div class="col-10">
+                          <select class="tamform" name="" id="">
+                            <option value=""></option>
+                            <option value="">Mauro Vidal</option>
+                          </select>
+                        </div>
+                        <div class="col-2">
+                            <button type="button" class="btn btn-primary btn-sm"><i class="fas fa-arrow-circle-left"></i></button>
+                            <button type="button" class="btn btn-primary btn-sm"><i class="fas fa-arrow-circle-right"></i></button>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                          <div class="col-12">
+                          <h5 class="titulo-pro">Dados do profissional</h5>
+                          </div>
+                          <div class="col-3">
+                            <div class="row">
+                            Cargo / Função
+                            </div>
+                            <div class="row">
+                            Equipe
+                            </div>
+                            <div class="row">
+                            Cidade
+                            </div>
+                            <div class="row">
+                            Data Avaliação
+                            </div>
+                            
+                          </div>
+                          <div class="col-9">
+                              <div class="row">
+                                  <input class="tamform" type="text">
+                              </div>
+                              <div class="row">
+                                  <input class="tamform" type="text">
+                              </div>
+                              <div class="row">
+                                  <input class="tamform" type="text">
+                              </div>
+                              <div class="row">
+                                  <input class="tamform" type="text">
+                              </div>
+                          </div>
+
+                    </div>
+
+                    <div class="row divisor">
+                      <div class="col-6">
+                        <h5 class="titulo-pro">Responsável RH</h5>
+                        <input class="tamform" type="text">
+                      </div>
+                      <div class="col-6">
+                        <h5 class="titulo-pro">Data Feedback</h5>
+                        <input class="tamform" type="text">
+                      </div>
+                    </div>
+                    <div class="row">
+                        <h5 class="titulo-pro">Observações do Gestor</h5>
+                        <textarea class="tamform" name="" id="" cols="30" rows="10"></textarea>
+                    </div>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="tab-pane fade" id="nav-etapa4" role="tabpanel" aria-labelledby="nav-etapa4-tab">
+                <div class="col-12">
+                <h5 class="titulo-pro">Avaliação da empresa</h5>
+                </div>
+                <div class="row">  
+                    <div class="col-8">
+                      <ul class="competencia">
+                        <li>Avaliação 1</li>
+                        <li>Avaliação 2</li>
+                        <li>Avaliação 3</li>
+                        <li>Avaliação 4</li>
+                        <li>Avaliação 5</li>
+                        <li>Avaliação 6</li>
+                      </ul>
+                    </div>
+  
+                    <div class="col-2">
+                      <form action="">
+                        <input class="formcomp" type="text" name="profissional1">                        
+                        <input class="formcomp" type="text" name="profissional2">                        
+                        <input class="formcomp" type="text" name="profissional3">
+                        <input class="formcomp" type="text" name="profissional4">
+                        <input class="formcomp" type="text" name="profissional5">
+                        <input class="formcomp" type="text" name="profissional6">
+                      </form>
+                    </div>
+                    <div class="col-2">
+                      
+                    </div>
+                </div>
+                
+              </div>
+
+              <div class="tab-pane fade" id="nav-etapa5" role="tabpanel" aria-labelledby="nav-etapa5-tab">
+                  <div class="row">
+                    <div class="col-12">
+                        <div class="row">
+                          <h5 class="titulo-pro">Observação sobre a Empresa</h5>
+                          <textarea class="tamform" name="" id="" cols="30" rows="10"></textarea>
+                        </div>
+                        
+                    </div>
+                  </div>
+                  
+                </div>
+
+                <div class="tab-pane fade show active" id="nav-etapa6" role="tabpanel" aria-labelledby="nav-etapa6-tab">
+                    <div class="row">
+                      <div class="col-12">
+                          
+                      </div>
+                    </div>
+                    
+                  </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="script.js"></script>
   </body>
 </html>
